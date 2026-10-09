@@ -1,0 +1,5 @@
+{
+  "name": "mastra-repro-workspace-server",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"]
+}

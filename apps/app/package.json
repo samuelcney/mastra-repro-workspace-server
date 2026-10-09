@@ -1,0 +1,19 @@
+{
+  "name": "@repro/app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.75.0",
+    "@repro/lib": "workspace:*",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "mastra": "^1.33.0",
+    "typescript": "^5.9.3"
+  }
+}
